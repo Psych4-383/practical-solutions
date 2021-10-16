@@ -1,0 +1,105 @@
+::-webkit-scrollbar{
+	width: 8px;
+	background: rgba(0,0,0,0.9);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+	width: 4px;
+    background: #fc2004b6;
+	border-radius: 5px;
+}
+*{
+	margin:0;
+	scroll-behavior: smooth;
+}
+#loader{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	z-index: 20;
+	background: linear-gradient(to right, grey 0%, grey 20%, rgb(93, 93, 93) 20%, rgb(93, 93, 93) 40%, rgb(65, 65, 65) 40%, rgb(65, 65, 65) 60%, rgb(93, 93, 93) 60%, rgb(93, 93, 93) 80%, grey 80%, grey 100%);
+	animation-name: load;
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+#inload{
+	text-align: center;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: #FFFFFF;
+	top: calc(50vh - 150px);
+	display: block;
+	background-image: url(../resources/loader.png);
+	background-size: cover;
+	background-position: center;
+	z-index: 20;
+	animation-name: load;
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+@keyframes load{
+	0%{transform: translate(0,-100vh);}
+	1%{transform: translate(0,0);}
+	80% {transform: translate(0,0);}
+	100%{transform: translate(0,-100vh);}
+}
+
+#navul{
+	background-color: rgba(86, 172, 223, 0.671);
+	width: 10px;
+	padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+	height: 300px;
+	border-radius: 0px 20px 20px 0px;
+}
+
+.navimg {
+	width: 50px;
+}
+
+.nav-li {
+	list-style-type: none;
+	color: white;
+	padding: 25px 10px;
+	transition-duration: 2s;
+	display: none;
+}
+.nav-text {
+	display: none;
+	width: fit-content;
+	padding: 10px;
+	font-size: 40px;
+	transition-duration: 1s;
+	font-family: 'josefin sans';
+}
+
+nav {
+	width: fit-content;
+    position: fixed;
+    z-index: 1;
+	display: flex;
+	align-items: center;
+	transition-duration: 2s;
+	height: 100vh;
+}   
+
+#navul:hover{
+	width: 100%;
+}
+#navul:hover > li{
+	display: inline;
+}
+
+main{
+	padding: 50px;
+	font-family: 'source sans pro';
+	color: rgba(0, 0, 0, 0.815);
+	padding-bottom: 50px;
+}
