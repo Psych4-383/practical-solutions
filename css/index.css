@@ -27,3 +27,13 @@ header {
 	font-family: nunito;
 	font-size: 40px;
 }
+
+.intextlink {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.685);
+	font-weight: bold;
+}
+
+.intextlink:hover {
+	color: rgba(109, 9, 109, 0.74);
+}

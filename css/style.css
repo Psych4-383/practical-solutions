@@ -103,3 +103,21 @@ main{
 	color: rgba(0, 0, 0, 0.815);
 	padding-bottom: 50px;
 }
+
+footer {
+	display: inline-block;
+	width: 100%;
+	background: #fc2104bc;
+	overflow-x: hidden;
+	color: white;
+	font-family: mont	serrat;
+	font-size: 16px;
+	margin-top: 50px;
+}
+
+footer div {
+	padding: 30px;
+	margin: 0px;
+	width: fit-content;
+	float: left;
+}
