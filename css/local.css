@@ -32,7 +32,7 @@ header {
 	margin:0;
 	scroll-behavior: smooth;
 }
-.p1 {
+#p1 {
 	width: 55%;
 	float: left;
 }

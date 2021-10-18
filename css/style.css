@@ -121,3 +121,12 @@ footer div {
 	width: fit-content;
 	float: left;
 }
+
+@keyframes fromRight {
+	from {
+		right: -1000px;
+	}
+	to {
+		right: 20px;
+	}
+}
