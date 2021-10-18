@@ -32,3 +32,11 @@ header {
 	margin:0;
 	scroll-behavior: smooth;
 }
+.p1 {
+	width: 55%;
+	float: left;
+}
+
+.subheadings {
+	float: left;
+}
