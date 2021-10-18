@@ -1,28 +1,3 @@
-body {
-	margin: 0;
-}
-
-header {
-    font-size: 50px;
-    height: 80vh;
-    background-image: url(../resources/header.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: 'Unica One';
-	color: white;
-	text-shadow: 4px 4px 10px black;
-	text-align: center;
-}
-
-#heading-1{
-	padding-top: 150px;
-}
-
-#p1 {
-	width: 55%;
-	float: left;
-}
-
 .heading{
 	font-family: nunito;
 	font-size: 40px;
