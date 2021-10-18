@@ -72,8 +72,8 @@ window.addEventListener('scroll', function(){
 const section = document.getElementsByTagName('header')[0];
 
 section.addEventListener('mousemove', (e) =>{
-  const moveX = (e.pageX * -1 / 15);
-  const moveY = (e.pageY * -1 / 15);
+  const moveX = (e.pageX * -1 / 25);
+  const moveY = (e.pageY * -1 / 25);
 
   section.style.backgroundPosition = moveX + 'px ' + moveY + 'px';
 });
